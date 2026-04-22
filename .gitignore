@@ -1,0 +1,28 @@
+
+.DS_Store
+
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# ===== Data & pretraining artifacts =====
+pretraining/Data/
+pretraining/LaMed/output/
+pretraining/LaMed/**/*.safetensors
+pretraining/LaMed/**/*.bin
+pretraining/LaMed/**/*.pth
+
+# ===== Checkpoints & outputs =====
+checkpoints/
+outputs/
+results/
+*.pth
+*.ckpt
+*.safetensors
+
+# ===== Logs =====
+logs/
+*.log
+
